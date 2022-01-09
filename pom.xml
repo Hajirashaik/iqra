@@ -3,9 +3,9 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.iqra</groupId>
   <artifactId>iqra</artifactId>
-  <packaging>jar</packaging>
-  <version>1.0.1-SNAPSHOT</version>
-  <name>iqra</name>
+  <packaging>war</packaging>
+  <version>2.0.2-SNAPSHOT</version>
+  <name>iqra Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -15,4 +15,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <build>
+    <finalName>iqra</finalName>
+  </build>
 </project>
